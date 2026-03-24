@@ -1,6 +1,6 @@
 # 🏦 DeFi Lending & Borrowing Protocol
 
-A Solidity-based decentralized lending protocol implementing ETH-collateralized borrowing, LTV enforcement, oracle-based pricing, health factor monitoring, and liquidation mechanics.
+A Solidity-based decentralized lending protocol implementing ETH-collateralized borrowing, oracle-based pricing, health factor monitoring, and liquidation mechanics.
 
 Built using Hardhat and OpenZeppelin.
 ## 🧪 Demo Flow
