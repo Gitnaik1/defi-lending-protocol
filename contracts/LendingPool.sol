@@ -86,6 +86,7 @@ contract LendingPool is ReentrancyGuard {
         collateral[user] -= collateralToSeize;
         borrowed[user] = 0;
 
-        payable(msg.sender).transfer(collateralToSeize);
+        (bool success, ) = payable(msg.sender).call{value: collateralToSeize}("");
+require(success, "ETH transfer failed");
     }
 }
